@@ -1,8 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import ProgramTile from './ProgramTile';
-import GridTile from "./GridTile";
-import React, { Component } from 'react';
+import { Component } from 'react';
+import GridTile from './GridTile';
 
 export default class App extends Component {
     render() {
