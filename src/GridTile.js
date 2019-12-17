@@ -8,7 +8,7 @@ export default class GridTile extends Component {
     render() {
         return (
              <div>
-                <ProgramTile /> programtile 1
+                <ProgramTile />
             </div>
         )
     }
