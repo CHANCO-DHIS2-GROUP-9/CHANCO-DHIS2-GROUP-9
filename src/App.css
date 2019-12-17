@@ -1,0 +1,11 @@
+.popover{
+  width: 175px;
+  background-color: black;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+
+.popoverText{
+  color: #fff;
+  text-align: center;
+}
