@@ -10,7 +10,6 @@ import Divider from '@material-ui/core/Divider';
 import { MDBTooltip } from "mdbreact";
 import "./App.css";
 
-
 //program tiles styles and  properties
 const programtile = makeStyles(theme => ({
   card: {

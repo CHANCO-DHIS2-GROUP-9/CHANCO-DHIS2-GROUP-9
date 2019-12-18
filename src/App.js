@@ -1,13 +1,15 @@
 import React from 'react';
 import { Component } from 'react';
 import GridTile from './GridTile';
+import NavBar from './Navbar';
 
-export default class App extends Component {
-    render() {
-        return (
-            <div>
-               <GridTile/> 
-            </div>
-        )
-    }
+export const App = () => {
+    return (
+        <div>
+            <NavBar />
+            <GridTile />
+        </div>
+    )
 }
+
+export default App;
