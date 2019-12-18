@@ -14,7 +14,7 @@ import "./App.css";
 //program tiles styles and  properties
 const programtile = makeStyles(theme => ({
   card: {
-    maxWidth: 250,
+    maxWidth: 500,
     height: 200,
     margin: "auto",
     marginTop:"20px",
