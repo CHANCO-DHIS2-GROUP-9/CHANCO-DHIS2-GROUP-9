@@ -76,7 +76,7 @@ cardHeader:{
         </CardActionArea>
       </Card>
       <div className="popoverText">
-       program description: This popover will provide a Quick Descrption of the program
+       Program description: This popover will provide a Quick Descrption of the program
        the description data will be fetched from the api.
       </div>
       </MDBTooltip>
