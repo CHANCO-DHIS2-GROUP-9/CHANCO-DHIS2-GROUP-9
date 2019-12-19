@@ -70,7 +70,7 @@ cardHeader:{
             Total enrollment
             </p>
             <p align = "center">
-            other data
+                Other data
             </p>
           </CardContent>
         </CardActionArea>
