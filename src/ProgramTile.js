@@ -15,7 +15,7 @@ import "./App.css";
 const programtile = makeStyles(theme => ({
   card: {
     maxWidth: 250,
-    height: 200,
+    height: 220,
     margin: "auto",
     marginTop:"20px",
 },
@@ -70,7 +70,10 @@ cardHeader:{
             Total enrollment
             </p>
             <p align = "center">
-            other data
+            Start Date: dd/mm/yyy
+            </p>
+            <p align = "center">
+            End Date: dd/mm/yyy
             </p>
           </CardContent>
         </CardActionArea>
