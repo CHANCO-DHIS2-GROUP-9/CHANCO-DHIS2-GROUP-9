@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -29,7 +29,7 @@ const programtile = makeStyles(theme => ({
     margin: `5px 0 0 ${theme.spacing(2)}px`,
   },
 cardHeader:{
-  backgroundColor: "#2c6693",
+  backgroundColor: "#43CBCB",
   position: "inherit",
   margin: `auto`,
 }
