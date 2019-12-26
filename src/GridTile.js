@@ -5,6 +5,7 @@ import ProgramTile from './ProgramTile';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles'
 
+//Navigation styles and  properties
 const gridstyle = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -21,7 +22,9 @@ export default function  GridTile () {
   const classes =  gridstyle();
 
   return (
+    //tiles have been hardcoded, there is need for dynamic populating of the grid upon fetching API data
     <div className={classes.root}>
+      {/* first row */}
       <Grid container spacing={1}>
           <Grid item xs>
              <ProgramTile/>
@@ -40,6 +43,7 @@ export default function  GridTile () {
           </Grid>
       </Grid>
 
+      {/* second row */}
       <Grid container spacing={1}>
           <Grid item xs>
              <ProgramTile/>

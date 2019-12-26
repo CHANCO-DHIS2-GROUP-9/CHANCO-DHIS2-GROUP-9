@@ -10,14 +10,13 @@ import Divider from '@material-ui/core/Divider';
 import { MDBTooltip } from "mdbreact";
 import "./App.css";
 
-
 //program tiles styles and  properties
 const programtile = makeStyles(theme => ({
   card: {
     maxWidth: 250,
     height: 220,
     margin: "auto",
-    marginTop:"20px",
+    marginTop:"30px",
 },
 
   avatar: {
@@ -62,6 +61,7 @@ cardHeader:{
           />
            <Divider/>
          <CardActionArea>
+           
           <CardContent>
             <p align = "center">
             Program type
@@ -76,6 +76,7 @@ cardHeader:{
             End Date: dd/mm/yyy
             </p>
           </CardContent>
+          
         </CardActionArea>
       </Card>
       <div className="popoverText">
