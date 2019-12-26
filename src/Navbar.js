@@ -87,7 +87,7 @@ export default function NaVBar() {
             
            {/* appname */}
             <Typography className={classes.title} variant="h8" noWrap>
-            DHIS2APP-GROUP-9 APP
+            DHIS<span style={{color:"lightBlue"}}>2</span> - GROUP-9 APP
             </Typography>
 
                 {/* searchbox */}
