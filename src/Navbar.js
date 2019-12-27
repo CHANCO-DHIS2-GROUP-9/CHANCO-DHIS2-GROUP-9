@@ -85,8 +85,7 @@ export default function NaVBar() {
             <img src={dhis2Icon} alt="dhis2Icon" width="40" height="40" />
             </IconButton>
             
-           {/* appname */}
-            <Typography className={classes.title} variant="h8" noWrap>
+             <Typography className={classes.title} variant="h8" noWrap>
             DHIS<span style={{color:"lightBlue"}}>2</span> - GROUP-9 APP
             </Typography>
 

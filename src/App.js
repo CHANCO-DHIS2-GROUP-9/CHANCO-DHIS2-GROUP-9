@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import GridTile from './GridTile';
+import Sidebar from './Sidebar'
 import NavBar from './NavBar';
 // import ProgramNavBar from './ProgramNavBar';
 export const App = () => {
@@ -8,6 +9,7 @@ export const App = () => {
         <div>
              {/* <ProgramNavBar/> */}
             <NavBar />
+            <Sidebar/>
             <GridTile />
             
             
